@@ -1,0 +1,23 @@
+.main1{
+    width: 410px;
+    height: 50px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: auto;
+    margin-top: 20PX;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+.main1 input{
+    height: 50px;
+    width: 50px;
+    color: grey;
+    border: none;
+    background-color: none;
+}
+
+.main1 input:checked+lebel:after{
+  background: green;
+}
